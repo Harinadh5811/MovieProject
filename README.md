@@ -37,25 +37,25 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Installation
 
-# 1. Clone the Repository
+### 1. Clone the Repository
 git clone https://github.com/Harinadh5811/MovieProject.git
 
-# 2. Navigate to the Project Directory
+### 2. Navigate to the Project Directory
 cd MovieProject
 
-# 3. Install Dependencies and Build the Project
+### 3. Install Dependencies and Build the Project
 mvn clean install
 
-# 4. Create `application.properties` File
-# Create a file named `application.properties` in the `src/main/resources` directory with the following content:
+### 4. Create `application.properties` File
+  Create a file named `application.properties` in the `src/main/resources` directory with the following content:
 
-omdb.api.key=your_api_key
-spring.datasource.url=jdbc:mysql://localhost:3306/yourdatabasename
-spring.datasource.username=username
-spring.datasource.password=password
-spring.jpa.hibernate.ddl-auto=update
+   omdb.api.key=your_api_key
+   spring.datasource.url=jdbc:mysql://localhost:3306/yourdatabasename
+   spring.datasource.username=username
+   spring.datasource.password=password
+   spring.jpa.hibernate.ddl-auto=update
 
-# 5. Run the Application
+### 5. Run the Application
 mvn spring-boot:run
 
 ### Deployment
