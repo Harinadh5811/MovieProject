@@ -20,10 +20,6 @@ Welcome to the Movie Playlist Application! This project is built using Spring Bo
 4. **Responsive Layout**:
    - User-friendly and visually appealing interface for search and list pages
 
-## Live Demo
-
-Check out the live demo of the application: [Live Demo Link](#)
-
 
 ## Getting Started
 
@@ -40,13 +36,10 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### 1. Clone the Repository
 git clone https://github.com/Harinadh5811/MovieProject.git
 
-### 2. Navigate to the Project Directory
-cd MovieProject
-
-### 3. Install Dependencies and Build the Project
+### 2. Install Dependencies and Build the Project
 mvn clean install
 
-### 4. Create `application.properties` File
+### 3. Create `application.properties` File
   Create a file named `application.properties` in the `src/main/resources` directory with the following content:
 
    omdb.api.key=your_api_key
@@ -55,7 +48,7 @@ mvn clean install
    spring.datasource.password=password
    spring.jpa.hibernate.ddl-auto=update
 
-### 5. Run the Application
+### 4. Run the Application
 mvn spring-boot:run
 
 ## Deployment
