@@ -41,4 +41,54 @@ Follow these instructions to get a copy of the project up and running on your lo
 
    ```bash
    git clone https://github.com/Harinadh5811/MovieProject.git
+
+2.Install dependencies and build the project:
+
+   '''bash
+   mvn clean install
+
+3.Create an application.properties file in the src/main/resources directory and add your OMDB API key:
+
+   '''properties
+   omdb.api.key=your_api_key
+   spring.datasource.url=jdbc:mysql://localhost:3306/yourdatabasename
+   spring.datasource.username=username
+   spring.datasource.password=password
+   spring.jpa.hibernate.ddl-auto=update
+
+4.Run the application:
+
+   '''bash
+   mvn spring-boot:run
+
+### Deployment
+
+### Usage
+
+1.Sign Up / Sign In:
+
+   - Navigate to the Sign Up page to create a new account or Sign In if you already have an account.
+
+2.Search Movies:
+
+   - After logging in, use the nav bar on the home screen to access all the pages.
+   - In findmovies page use the search bar to find movies.
+   - View detailed information about each movie by clicking on the movie card.
+
+3.Create and Manage Playlists:
+
+   - Create new Playlist from CreatePlaylist page.
+   - Change the access of the lists based on your wish ((Private/Public))
+   - Manage Playlist from ViewPlaylist page ((Delete/View))
+   - Explore all the Playlists created by different users in ViewallPlaylist page.
+
+### Acknowledgements
+
+   - OMDB API for providing movie data.
+   - Inspiration from various movie and playlist applications for the UI design.
+
+### Contributing
+
+   - Contributions are welcome! Please fork the repository and create a pull request with your changes.
+
    
