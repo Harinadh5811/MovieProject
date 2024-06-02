@@ -37,29 +37,26 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Installation
 
-1.Clone your Repository:
+# 1. Clone the Repository
+git clone https://github.com/Harinadh5811/MovieProject.git
 
-   ```bash
-   git clone https://github.com/Harinadh5811/MovieProject.git
+# 2. Navigate to the Project Directory
+cd MovieProject
 
-2.Install dependencies and build the project::
+# 3. Install Dependencies and Build the Project
+mvn clean install
 
-   ```bash
-   mvn clean install
+# 4. Create `application.properties` File
+# Create a file named `application.properties` in the `src/main/resources` directory with the following content:
 
-3.Create an application.properties file in the src/main/resources directory and add your OMDB API key:
+omdb.api.key=your_api_key
+spring.datasource.url=jdbc:mysql://localhost:3306/yourdatabasename
+spring.datasource.username=username
+spring.datasource.password=password
+spring.jpa.hibernate.ddl-auto=update
 
-    ```properties
-   omdb.api.key=your_api_key
-   spring.datasource.url=jdbc:mysql://localhost:3306/yourdatabasename
-   spring.datasource.username=username
-   spring.datasource.password=password
-   spring.jpa.hibernate.ddl-auto=update
-
-4.Run the application:
-
-    ```bash
-   mvn spring-boot:run
+# 5. Run the Application
+mvn spring-boot:run
 
 ### Deployment
 
