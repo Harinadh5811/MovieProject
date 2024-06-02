@@ -35,7 +35,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 - Maven (https://maven.apache.org/)
 - OMDB API Key (http://www.omdbapi.com/apikey.aspx)
 
-### Installation
+## Installation
 
 ### 1. Clone the Repository
 git clone https://github.com/Harinadh5811/MovieProject.git
@@ -58,9 +58,9 @@ mvn clean install
 ### 5. Run the Application
 mvn spring-boot:run
 
-### Deployment
+## Deployment
 
-### Usage
+## Usage
 
 1.Sign Up / Sign In:
 
@@ -79,12 +79,12 @@ mvn spring-boot:run
    - Manage Playlist from ViewPlaylist page ((Delete/View))
    - Explore all the Playlists created by different users in ViewallPlaylist page.
 
-### Acknowledgements
+## Acknowledgements
 
    - OMDB API for providing movie data.
    - Inspiration from various movie and playlist applications for the UI design.
 
-### Contributing
+## Contributing
 
    - Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
