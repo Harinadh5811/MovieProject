@@ -24,9 +24,6 @@ Welcome to the Movie Playlist Application! This project is built using Spring Bo
 
 Check out the live demo of the application: [Live Demo Link](#)
 
-## Code Repository
-
-Access the source code on GitHub: [GitHub Repository](#)
 
 ## Getting Started
 
@@ -43,5 +40,5 @@ Follow these instructions to get a copy of the project up and running on your lo
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/movie-playlist-app.git
-   cd movie-playlist-app
+   git clone https://github.com/Harinadh5811/MovieProject.git
+   
