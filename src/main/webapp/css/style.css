@@ -1,0 +1,88 @@
+/* Reset default margin and padding for common elements */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #3498db; /* Blue background */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Modern Love', sans-serif; /* Use the "Modern Love" font */
+}
+
+/* Define styles for left and right sides of the navbar */
+.left-side {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #ecf0f1;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: color 0.3s;
+    font-weight: bold; /* Make the font bold */
+}
+
+.navbar a:hover {
+    color: #e74c3c; /* Red color on hover */
+    transform: scale(1.7); /* Enlarge on hover */
+}
+
+/* Logo styles */
+.navbar .logo {
+    font-size: 24px;
+    color: #e74c3c;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* Mobile navigation icon */
+.navbar .icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Align services to the right side */
+.navbar .services {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Create a dropdown when the screen is less than 600px wide */
+@media screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+    .navbar .services {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
+        margin-right: 20px;
+    }
+}
