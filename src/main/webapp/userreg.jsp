@@ -218,6 +218,7 @@
           <td colspan="2"><input type="submit" value="REGISTER" class="form-group button" style="background-color: #333;"></td>
         </tr>
       </table>
+	<h3 class="message">${message}</h3>
       <br>
       <a href="/userlogin" class="name3">LOGIN</a>
     </form>
