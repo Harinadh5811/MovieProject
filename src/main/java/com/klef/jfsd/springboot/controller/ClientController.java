@@ -84,9 +84,9 @@ public class ClientController
 		}
 		catch (Exception e) 
 		{
-			mv.setViewName("displayerror");
+			mv.setViewName("userreg");
 			msg = e.getMessage();
-			mv.addObject("message", msg);
+			mv.addObject("message", "Email or Mobile Number already Exist..!");
 		}
 		return mv;
 	}
