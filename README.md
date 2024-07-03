@@ -2,6 +2,10 @@
 
 Welcome to the Movie Playlist Application! This project is built using Spring Boot and allows users to search for movies, create personalized lists of movies, and manage these lists with user authentication. Users can sign up, sign in, search for movies using the OMDB API, and create either public or private movie lists.
 
+# Access Code from here
+
+https://github.com/Harinadh5811/MovieProject/tree/master
+
 ## Features
 
 1. **User Authentication**:
